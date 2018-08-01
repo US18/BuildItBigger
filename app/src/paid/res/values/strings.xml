@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Build it Bigger</string>
+    <string name="tell_me_a_joke">Tell Me a Joke</string>
+    <string name="instruction_message">Thanks for buying this app. \n Press the below button.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

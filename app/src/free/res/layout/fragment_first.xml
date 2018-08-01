@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60059c"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_instruction_message"
+        android:text="@string/instruction_message"
+        android:fontFamily="cursive"
+        android:textSize="60sp"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tell_joke"
+        android:layout_below="@id/tv_instruction_message"
+        android:layout_margin="20dp"
+        android:text="@string/tell_me_a_joke"
+        android:padding="10dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView_free"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        />
+
+</RelativeLayout>

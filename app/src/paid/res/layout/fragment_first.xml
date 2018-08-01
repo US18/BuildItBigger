@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#60059c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_instruction_message"
+        android:text="@string/instruction_message"
+        android:fontFamily="cursive"
+        android:textSize="60sp"
+        android:textColor="#ffffff"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tell_joke"
+        android:layout_below="@id/tv_instruction_message"
+        android:layout_margin="20dp"
+        android:text="@string/tell_me_a_joke"
+        android:padding="10dp"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>
